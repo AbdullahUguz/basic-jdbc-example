@@ -9,7 +9,7 @@ public class CRUDOperationMsSQL implements CRUDOperations {
     Connection connection;
     String url = "jdbc:sqlserver://192.168.120.137;databaseName=TEST";
     String users = "SA";
-    String password = "Apo_0808";
+    String password = ""; //Your db password
 
     public CRUDOperationMsSQL() throws SQLException {
         connectionDatabase();
